@@ -1,0 +1,43 @@
+# Ignore build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.class
+
+# CMake build directories
+build/
+cmake-build-*/
+
+# Generated files
+*.d
+*.log
+*.dep
+*.manifest
+*.pdb
+*.ilk
+
+# Editor-specific files
+.vscode/
+.vscode/*
+
+# Debugger files
+*.log
+*.launch
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Ignore user-specific VSCode files
+*.code-workspace
