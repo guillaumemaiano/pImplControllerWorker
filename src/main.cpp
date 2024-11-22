@@ -1,7 +1,7 @@
 #include "MyClass.h"
 
 int main() {
-    MyClass obj;
+    mynamespace::classes::MyClass obj;
     obj.doSomething();
     return 0;
 }

@@ -1,4 +1,9 @@
 // Public Header
+
+
+namespace mynamespace {}
+
+namespace mynamespace::classes {
 class MyClass {
 public:
     MyClass();
@@ -10,3 +15,4 @@ private:
     class Impl; // Forward declaration
     Impl* impl; // Pointer to implementation
 };
+} // namespace mynamespace::classes
